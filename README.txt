@@ -1,18 +1,9 @@
-REMIX EXAMPLE PROJECT
+NFT - MarketPlace  
 
-Remix example project is present when Remix loads very first time or there are no files existing in the File Explorer. 
-It contains 3 directories:
+This is a prototype of a NFT-MarketPlace where there's two contracts:  
 
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one test file for 'Ballot' contract with unit tests in Solidity.
+NFT: Which is the contract that creates the NFTs itself. A user can mint NFT's and they will go to a market place.  
 
-SCRIPTS
+Marketplace: Here is where you can buy, sell and keep track of the sold NFTs and also keep track of your own NFTs.  
 
-The 'scripts' folder contains example async/await scripts for deploying the 'Storage' contract.
-For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
-Scripts have full access to the web3.js and ethers.js libraries.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-
-Output from script will appear in remix terminal.
+This is using hardhat console and openZeppelin libraries.
